@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "||doubleclick.net^",
+        "domains": ["youtube.com"]
+      }
+    },
+    {
+      "id": 2,
+      "priority": 1,
+      "action": { "type": "block" },
+      "condition": {
+        "urlFilter": "||googlesyndication.com^",
+        "domains": ["youtube.com"]
+      }
+    }
+  ]
